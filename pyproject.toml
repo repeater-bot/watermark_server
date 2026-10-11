@@ -5,6 +5,7 @@ description = "Generating spectral steganography watermarking."
 authors = [
     {name = "Qeggs",email = "get_boot@outlook.com"}
 ]
+license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
