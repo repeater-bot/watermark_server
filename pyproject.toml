@@ -1,0 +1,27 @@
+[project]
+name = "repeater-watermark-server"
+version = "0.1.0"
+description = "Generating spectral steganography watermarking."
+authors = [
+    {name = "Qeggs",email = "get_boot@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "fastapi (>=0.142.2,<0.143.0)",
+    "uvicorn (>=0.54.0,<0.55.0)",
+    "pydantic (>=2.13.5,<3.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "traceless-watermark (>=0.1.0,<0.2.0)",
+    "opencv-python (>=5.0.0.93,<6.0.0.0)",
+    "environs (>=15.2.0,<16.0.0)",
+    "python-multipart (>=0.0.32,<0.0.33)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
